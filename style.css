@@ -1,0 +1,19 @@
+* {
+    text-align: center;
+}
+
+.button {
+    background-color: #e90058;
+    box-shadow: 0 5px 0 #fe7fb9;
+    border-color: transparent;
+    border-radius: 9px;
+
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+.button:active {
+    box-shadow: none;
+    transform: translateY(5px);
+}
